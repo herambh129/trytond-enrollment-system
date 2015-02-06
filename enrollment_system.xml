@@ -1,5 +1,16 @@
 <?xml version="1.0"?>
+
 <tryton>
     <data>
+        <record model="ir.ui.view" id="medical_family_details_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">medical_family_details_tree</field>
+        </record>
+        <record model="ir.ui.view" id="medical_family_details_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">medical_family_details_form</field>
+        </record>
     </data>
 </tryton>

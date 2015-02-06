@@ -1,0 +1,34 @@
+<data>
+    <xpath expr="/form/field[@name='code']" position="after">
+        <notebook colspan="6">
+            <page string="Family Information" id="family_info">
+                <label name="father_name"/>
+                <field name="father_name"/>
+                <label name="father_occupation"/>
+                <field name="father_occupation"/>
+                <label name="mother_name"/>
+                <field name="mother_name"/>
+                <label name="mother_occupation"/>
+                <field name="mother_occupation"/>
+                <label name="parent_contact"/>
+                <field name="parent_contact"/>
+            </page>
+            <page string="Medical Issues" id="med_issues">
+                <label name="blood_group"/>
+                <field name="blood_group"/>
+                <label name="doctor_name"/>
+                <field name="doctor_name"/>
+                <label name="doctor_contact"/>
+                <field name="doctor_contact"/>
+                <label name="allergies"/>
+                <field name="allergies"/>
+                <label name="past_diseases"/>
+                <field name="past_diseases"/>
+                <label name="current_diseases"/>
+                <field name="current_diseases"/>
+                <label name="medications"/>
+                <field name="medications"/>
+            </page>
+        </notebook>
+    </xpath>
+</data>

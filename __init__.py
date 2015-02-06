@@ -6,9 +6,11 @@
     :license: BSD, see LICENSE for more details.
 """
 from trytond.pool import Pool
+from medical_family_details import Party
 
 
 def register():
     Pool.register(
+        Party,
         module='enrollment_system', type_='model'
     )

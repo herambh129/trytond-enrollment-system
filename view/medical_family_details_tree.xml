@@ -1,0 +1,16 @@
+<data>
+    <xpath expr="/tree/field[@name='code']" position="after">
+        <field name="father_name" />
+        <field name="father_occupation" />
+        <field name="mother_name" />
+        <field name="mother_occupation" />
+        <field name="parent_contact" />
+        <field name="blood_group"/>
+        <field name="doctor_name"/>
+        <field name="doctor_contact"/>
+        <field name="allergies"/>
+        <field name="past_diseases"/>
+        <field name="current_diseases"/>
+        <field name="medications"/>
+    </xpath>
+</data>
