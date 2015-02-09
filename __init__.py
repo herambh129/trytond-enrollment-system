@@ -7,12 +7,16 @@
 """
 from trytond.pool import Pool
 from medical_family_details import Party
-from enrollment_system import PartyPersonalDetails
+from enrollment_system import EducationalBackground, PriorExperience, PartyPersonalDetails
+from enrollment_system import SkillSet, Party
 
 
 def register():
     Pool.register(
         Party,
         PartyPersonalDetails,
+        EducationalBackground,
+        PriorExperience,
+        SkillSet,
         module='enrollment_system', type_='model'
     )
